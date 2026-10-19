@@ -4,6 +4,8 @@
 
 Assign a hotkey to throw the front window to a chosen display at an exact position and size.
 
+> 🆓 A free, open-source **Hookshot alternative** for macOS 14+. Native Swift, no accounts, no subscriptions, MIT licensed.
+
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
 ![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange)
 ![License MIT](https://img.shields.io/badge/License-MIT-green)
@@ -84,6 +86,10 @@ WindowThrowKeys is free. If it saves you time, you can support its development:
 [☕ Support Or (Leo) Davidai ❤️ on Ko-fi](https://ko-fi.com/leodavidai)
 
 The app also has a **Support / Donate ❤️** button in the menu bar menu, Settings and the editor.
+
+## More free Mac apps
+
+WindowThrowKeys is one of [60 free, open-source Mac utilities](https://github.com/turhe123/mac-apps) built the same way: native Swift, no accounts, no telemetry. Browse the full gallery at [turhe123.github.io/mac-apps](https://turhe123.github.io/mac-apps/).
 
 ## License
 
