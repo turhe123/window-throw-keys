@@ -1,5 +1,7 @@
 # WindowThrowKeys
 
+**🌐 Website:** [turhe123.github.io/window-throw-keys](https://turhe123.github.io/window-throw-keys/)
+
 Assign a hotkey to throw the front window to a chosen display at an exact position and size.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ WindowThrowKeys is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="WindowThrowKeys menu bar menu listing throw actions and shortcuts" width="720"></p>
+
+<p align="center"><em>The menu bar menu lists every throw action with its global hotkey click one to send the front window to its display and frame.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-editor.png" alt="Edit Actions window showing the Left Two Thirds action with a frame preview" width="560"></p>
+
+<p align="center"><em>The action editor sets each action&#x27;s name, hotkey, target display and frame percentages, with a live preview of where the window will land.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="WindowThrowKeys Settings window" width="560"></p>
+
+<p align="center"><em>Settings has launch at login, the optional missing-display notification, and the Accessibility permission status.</em></p>
 
 ## Install
 

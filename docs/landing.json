@@ -1,0 +1,60 @@
+{
+  "seo_title": "Window hotkeys for multiple displays",
+  "seo_description": "Free, open-source macOS menu bar app. Assign a hotkey to send the front window to any display at an exact position and size. Native, offline, no account.",
+  "hero_title_line1": "One hotkey.",
+  "hero_title_accent": "Window lands exactly there.",
+  "hero_sub": "WindowThrowKeys sends the front window to the display, position and size you choose. Record a global hotkey for each action, or click it in the menu bar.",
+  "features_title": "Precise placement, repeatable.",
+  "features_sub": "Define each throw once, then trigger it from anywhere with a shortcut.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Your own global hotkeys",
+      "desc": "Each action has a name and a recorded shortcut. The editor warns you when two actions share a hotkey or when the system or another app already owns it."
+    },
+    {
+      "icon": "display",
+      "title": "Main, Next, Previous or named",
+      "desc": "Target the main display, step through displays left to right with wrap-around, or pick one by name. If a named display is unplugged, the action falls back to the main display."
+    },
+    {
+      "icon": "window",
+      "title": "Exact frames in percentages",
+      "desc": "Set X, Y, width and height as percentages of the display's visible area, with a live preview. Frames are clamped so the window never leaves the screen."
+    },
+    {
+      "icon": "cursor",
+      "title": "Capture the current window",
+      "desc": "Create an action from the front window's current frame, or fill an existing one with Use Current Window Frame. Keep current size moves a window without resizing it."
+    },
+    {
+      "icon": "sliders",
+      "title": "Starter actions and JSON import",
+      "desc": "Begin with Send to Next Display, Send to Previous Display, Center at 60%, and Left Two Thirds. Duplicate, reorder, delete, and import or export all actions as JSON."
+    },
+    {
+      "icon": "bolt",
+      "title": "Lives in the menu bar",
+      "desc": "The menu lists every action with its shortcut and runs it on the front window when clicked. Launch at login is optional."
+    }
+  ],
+  "permissions_step": "Grant Accessibility access in System Settings > Privacy & Security > Accessibility so the app can read and set window positions and sizes.",
+  "faq": [
+    {
+      "q": "Is WindowThrowKeys really free and open source?",
+      "a": "Yes. It is free to use and released under the MIT license, with the full source on GitHub. There is no account, no server and no network code. If it saves you time, you can optionally support development on Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility is required, because that is how the app finds the front window and sets its position and size. Notifications are requested only if you enable the missing-display alert, and launch at login is optional. It does not ask for Screen Recording or Microphone access, and it only reads window frames, never contents."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your actions are saved as a JSON file named actions.json in ~/Library/Application Support/WindowThrowKeys on your Mac. Nothing is sent anywhere, and you can export or import the file from the editor."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it from source with Xcode."
+    }
+  ]
+}

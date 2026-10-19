@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu lists every throw action with its global hotkey; click one to send the front window to its display and frame.","alt":"WindowThrowKeys menu bar menu listing throw actions and shortcuts"},
+  {"file":"02-editor.png","caption":"The action editor sets each action's name, hotkey, target display and frame percentages, with a live preview of where the window will land.","alt":"Edit Actions window showing the Left Two Thirds action with a frame preview"},
+  {"file":"03-settings.png","caption":"Settings has launch at login, the optional missing-display notification, and the Accessibility permission status.","alt":"WindowThrowKeys Settings window"}
+]
